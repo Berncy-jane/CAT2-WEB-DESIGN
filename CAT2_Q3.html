@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            background-color: white;
+            border-radius: 25px;
+            border: 2px solid grey;
+            padding: 20px;
+            width: 500px;
+        }
+        .container input[type="text"],
+        .container input[type="email"],
+        .container input[type="tel"],
+        .container input[type="password"]{
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 1px solid grey;
+        }
+        .container input[type="submit"]{
+            width: 90%;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <form action="">
+            <input type="text" name="name" placeholder="name"><br>
+            <input type="email" name="email" placeholder="email"><br>
+            <input type="tel" name="phone" placeholder="Phone number"><br>
+            <input type="password" name="password" placeholder="password"><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
